@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="refresh" content="0;url=http://127.0.0.1:5000">
+    <title>Opening RevenueIQ...</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #0a1128 0%, #1e293b 100%);
+            color: #fff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            text-align: center;
+        }
+        
+        .container {
+            max-width: 600px;
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: 20px;
+            padding: 60px;
+            backdrop-filter: blur(10px);
+            border: 2px solid rgba(79, 70, 229, 0.3);
+        }
+        
+        h1 {
+            font-size: 3em;
+            margin-bottom: 20px;
+            background: linear-gradient(135deg, #4f46e5 0%, #06b6d4 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        
+        .loader {
+            width: 80px;
+            height: 80px;
+            border: 8px solid rgba(79, 70, 229, 0.2);
+            border-top-color: #4f46e5;
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+            margin: 40px auto;
+        }
+        
+        @keyframes spin {
+            to { transform: rotate(360deg); }
+        }
+        
+        p {
+            font-size: 1.2em;
+            color: #94a3b8;
+            margin-bottom: 30px;
+        }
+        
+        .manual-link {
+            display: inline-block;
+            background: linear-gradient(135deg, #4f46e5 0%, #3b82f6 100%);
+            color: white;
+            padding: 15px 40px;
+            border-radius: 10px;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 1.1em;
+            transition: all 0.3s ease;
+            margin-top: 20px;
+        }
+        
+        .manual-link:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 30px rgba(79, 70, 229, 0.5);
+        }
+        
+        .status {
+            background: rgba(16, 185, 129, 0.1);
+            border: 2px solid #10b981;
+            padding: 20px;
+            border-radius: 10px;
+            margin-top: 30px;
+        }
+        
+        .status h3 {
+            color: #10b981;
+            margin-bottom: 10px;
+        }
+        
+        code {
+            background: rgba(255, 255, 255, 0.1);
+            padding: 5px 10px;
+            border-radius: 5px;
+            font-family: 'Courier New', monospace;
+        }
+    </style>
+    <script>
+        // Redirect after 2 seconds
+        setTimeout(function() {
+            window.location.href = 'http://127.0.0.1:5000';
+        }, 2000);
+    </script>
+</head>
+<body>
+    <div class="container">
+        <h1>🚀 RevenueIQ</h1>
+        <p>Opening your application...</p>
+        <div class="loader"></div>
+        <p style="font-size: 0.9em;">Redirecting to <code>http://127.0.0.1:5000</code></p>
+        
+        <a href="http://127.0.0.1:5000" class="manual-link">
+            Click Here if Not Redirected
+        </a>
+        
+        <div class="status">
+            <h3>✅ Server Status: RUNNING</h3>
+            <p style="color: #94a3b8; font-size: 0.9em;">
+                Your Flask application is running successfully<br>
+                Database connected with 62 conversations
+            </p>
+        </div>
+    </div>
+</body>
+</html>

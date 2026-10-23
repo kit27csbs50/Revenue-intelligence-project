@@ -1,0 +1,6 @@
+conversation_id,customer_name,customer_company,customer_phone,customer_email,conversation_type,timestamp,transcript
+SAMPLE-001,Alice Johnson,Tech Innovations Inc,+1-555-0201,alice@techinnovations.com,Call,2026-10-22 09:30:00,"I'm very interested in purchasing your enterprise solution. Can you send me pricing information and schedule a demo?"
+SAMPLE-002,Bob Williams,Retail Solutions LLC,+1-555-0202,bob@retailsolutions.com,Meeting,2026-10-22 10:15:00,"We discussed the implementation timeline. The team is excited to move forward. Thank you for the excellent presentation."
+SAMPLE-003,Carol Davis,Manufacturing Corp,+1-555-0203,carol@manufacturing.com,Call,2026-10-22 11:00:00,"I'm experiencing technical issues with the dashboard. The charts are not loading and I keep getting error messages. This is urgent."
+SAMPLE-004,David Martinez,Finance Group,+1-555-0204,david@financegroup.com,Call,2026-10-22 14:30:00,"What are your pricing options? We need quotes for 25 users. Are there any discounts available for annual contracts?"
+SAMPLE-005,Emma Thompson,Healthcare Systems,+1-555-0205,emma@healthcaresys.com,Call,2026-10-22 15:45:00,"I am very disappointed with the customer support. We have been waiting for a response for over a week. This is unacceptable."
